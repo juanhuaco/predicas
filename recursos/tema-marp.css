@@ -1,0 +1,124 @@
+/* @theme predicas */
+/* Tema visual para presentaciones de prédicas. */
+/* Basado en el tema "default" de Marp con ajustes para legibilidad. */
+
+@import 'default';
+
+:root {
+  --color-fondo: #fafaf7;
+  --color-texto: #1f2328;
+  --color-acento: #7a4f1d;
+  --color-tenue: #6b6b6b;
+  --color-cita-fondo: #f1ece1;
+  --color-cita-borde: #c9a86a;
+}
+
+section {
+  background: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 30px;
+  line-height: 1.5;
+  padding: 70px 80px;
+}
+
+h1, h2, h3 {
+  color: var(--color-acento);
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 0.4em;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin-bottom: 0.3em;
+}
+
+h3 {
+  font-size: 1.1em;
+  color: var(--color-tenue);
+}
+
+/* Cita bíblica destacada */
+blockquote {
+  background: var(--color-cita-fondo);
+  border-left: 6px solid var(--color-cita-borde);
+  margin: 0.6em 0;
+  padding: 0.8em 1.2em;
+  font-style: italic;
+  font-size: 0.95em;
+  color: var(--color-texto);
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Sigla de versión al final de la cita */
+blockquote em:last-child,
+blockquote p:last-child em {
+  display: block;
+  margin-top: 0.4em;
+  font-style: normal;
+  font-size: 0.85em;
+  color: var(--color-tenue);
+  text-align: right;
+}
+
+/* Slide de portada */
+section.portada {
+  text-align: center;
+  justify-content: center;
+}
+
+section.portada h1 {
+  font-size: 2.2em;
+  margin-bottom: 0.2em;
+}
+
+section.portada h2 {
+  color: var(--color-tenue);
+  font-weight: 400;
+  font-size: 1em;
+}
+
+/* Slide de versículo central (solo cita, sin más texto) */
+section.versiculo {
+  text-align: center;
+  justify-content: center;
+  background: #fff;
+}
+
+section.versiculo blockquote {
+  background: transparent;
+  border: none;
+  font-size: 1.4em;
+  padding: 0;
+}
+
+/* Listas más respiradas */
+ul, ol {
+  margin: 0.4em 0;
+}
+
+li {
+  margin: 0.3em 0;
+}
+
+/* Footer y page numbers en gris tenue */
+footer, section::after {
+  color: var(--color-tenue);
+  font-size: 0.5em;
+}
+
+code {
+  background: #ebe7dc;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}

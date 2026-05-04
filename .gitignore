@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+*.log
+
+# Marp output (descomentar si no querés versionar el HTML generado)
+# predicas/**/presentacion.html

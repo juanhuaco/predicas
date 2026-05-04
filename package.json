@@ -1,0 +1,14 @@
+{
+  "name": "predicas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Repositorio personal de prédicas y enseñanzas en español",
+  "scripts": {
+    "slides": "marp -s . --theme recursos/tema-marp.css",
+    "build": "marp --html --allow-local-files --theme recursos/tema-marp.css 'predicas/**/presentacion.md'",
+    "build:pdf": "marp --pdf --allow-local-files --theme recursos/tema-marp.css 'predicas/**/presentacion.md'"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
