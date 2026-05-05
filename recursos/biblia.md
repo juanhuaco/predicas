@@ -1,5 +1,19 @@
 # Convenciones de citas bíblicas
 
+## Fuente canónica: Bible Gateway
+
+Todas las citas bíblicas se verifican contra [Bible Gateway](https://www.biblegateway.com/) antes de incluirse en una prédica. URLs por versión:
+
+- RVR1960: `https://www.biblegateway.com/passage/?search={referencia}&version=RVR1960`
+- NTV: `https://www.biblegateway.com/passage/?search={referencia}&version=NTV`
+- NBLA: `https://www.biblegateway.com/passage/?search={referencia}&version=NBLA`
+
+Reemplazá `{referencia}` por la cita codificada en URL (ej: `Salmos%2023`, `Lucas%2015%3A1-7`).
+
+---
+
+## Versiones en uso
+
 En este repositorio usamos solamente tres versiones de la Biblia:
 
 | Sigla    | Versión                          | Uso típico                                       |

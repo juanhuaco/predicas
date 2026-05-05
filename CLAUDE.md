@@ -41,7 +41,10 @@ Reglas rápidas:
 - Formato corto: `Sal 23:1 (RVR1960)`.
 - Cita en bloque: usá `>` markdown y poné la sigla al final entre paréntesis.
 - Cuando compares versiones, mostralas en orden: RVR1960 → NTV → NBLA.
-- Nunca inventes texto bíblico. Si no estás 100% seguro de la cita exacta, decilo y pedí confirmación.
+- Nunca inventes texto bíblico. **Siempre verificá las citas en [Bible Gateway](https://www.biblegateway.com/) antes de incluirlas en una prédica.** URLs:
+  - `https://www.biblegateway.com/passage/?search={referencia}&version=RVR1960`
+  - `https://www.biblegateway.com/passage/?search={referencia}&version=NTV`
+  - `https://www.biblegateway.com/passage/?search={referencia}&version=NBLA`
 
 ## Duración
 
